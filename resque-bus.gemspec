@@ -17,7 +17,8 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency('queue-bus', ['>= 0.7', '< 1'])
-  s.add_dependency('resque', ['>= 1.10.0', '< 2.0'])
+  s.add_dependency('resque', '>= 2.0.0')
+
   s.add_dependency('resque-scheduler', '>= 2.0.1')
   s.add_dependency('resque-retry')
 
